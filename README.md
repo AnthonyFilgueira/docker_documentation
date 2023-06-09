@@ -3,13 +3,13 @@ Documentacion de Curso de Docker
 
 # Comandos Iniciales
 - listar carpetas que tiene la imagen en el directorio raiz
-docker run nombre_imagen:version ls / 
+  - `docker run nombre_imagen:version ls /`
 
 - iniciar consola dentro de la imagen
-docker run -i -t nombre_imagen:version sh
+  - `docker run -i -t nombre_imagen:version sh`
 
 - ver listado de contenedores
-- docker ps
+  - `docker ps`
 
 - ejecutar contenedor en background
 - docker run -d nombre_imagen:version 
